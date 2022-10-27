@@ -218,6 +218,10 @@ body {
       margin-bottom: 20px;
       letter-spacing: 0;
     }
+    @media (max-width: $r_mob_360) {
+      font-size: 2.4rem;
+      //margin-bottom: 15px;
+    }
     &_span {
       @media (max-width: $r_tab) {
         display: block;
@@ -574,6 +578,9 @@ body {
   @media (max-width: $r_mob_400) {
     width: 329px;
   }
+  @media (max-width: $r_mob_360) {
+    width: 270px;
+  }
   &-header {
     background: linear-gradient(90deg, #BBBBF0 0%, #D8A0FA 71.12%);
   }
@@ -587,6 +594,9 @@ body {
     font-weight: 700;
     @media (max-width: $r_mob_600) {
       font-size: 1.5rem;
+    }
+    @media (max-width: $r_mob_360) {
+      font-size: 1.2rem;
     }
   }
   &-header th:nth-child(1) {
@@ -607,6 +617,9 @@ body {
       font-weight: 700;
       @media (max-width: $r_mob_600) {
         font-size: 1.5rem;
+      }
+      @media (max-width: $r_mob_360) {
+        font-size: 1.2rem;
       }
     }
   }
@@ -649,6 +662,10 @@ body {
     @media (max-width: $r_mob_500) {
       margin-bottom: 29px;
       letter-spacing: 0;
+    }
+    @media (max-width: $r_mob_360) {
+      font-size: 2.4rem;
+      margin-bottom: 15px;
     }
     &_span {
       @media (max-width: $r_tab) {
@@ -1094,6 +1111,9 @@ body {
     left: 0;
     bottom: -431px;
     z-index: 4;
+  }
+  @media (max-width: $r_mob_360) {
+    left: -30px;
   }
 }
 .about-circle {
