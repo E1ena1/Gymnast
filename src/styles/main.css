@@ -1440,4 +1440,129 @@ footer {
   font-size: 1.6rem;
 }
 
+.studio-img {
+  width: 114px;
+  height: 46px;
+}
+
+.modal {
+  font-size: 2.4rem;
+  line-height: 36px;
+  text-align: center;
+  color: #9B4EED;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: -9000px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+}
+.modal__container {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 78px;
+}
+.modal__items {
+  width: 360px;
+  margin: 0 auto;
+  position: relative;
+}
+@media (max-width: 400px) {
+  .modal__items {
+    width: 280px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.modal__close {
+  background-image: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -40px;
+  right: 37px;
+}
+@media (max-width: 400px) {
+  .modal__close {
+    top: -40px;
+    right: 1px;
+  }
+}
+@media (max-width: 320px) {
+  .modal__close {
+    right: 19px;
+  }
+}
+.modal__list {
+  padding-left: 0;
+  margin: 0;
+}
+.modal__item {
+  list-style-type: none;
+  border-top: 2px solid rgba(187, 187, 240, 0.2);
+  padding: 16px 0 16px 0;
+}
+.modal__item:nth-child(3) {
+  padding: 21px 0 22px 0;
+}
+.modal__item:nth-child(4) {
+  padding: 17px 0 24px 0;
+}
+.modal__item:nth-child(5) {
+  padding: 19px 0 26px 0;
+}
+.modal__item:nth-child(6) {
+  padding: 29px 0 10px 0;
+}
+.modal__link {
+  text-decoration: none;
+}
+.modal__socials {
+  display: flex;
+  justify-content: space-around;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 20px 0 31px 0;
+}
+.modal__social-list {
+  list-style-type: none;
+}
+.modal__social-item {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  background-size: 20px 20px;
+  transition: 0.3s;
+}
+.modal__fb {
+  background-image: url("../images/facebook.svg");
+  background-size: 18px 18px;
+}
+.modal__fb:hover {
+  transform: scale(1.1);
+}
+.modal__vk {
+  background-image: url("../images/vk.svg");
+  background-size: 25px 18px;
+}
+.modal__vk:hover {
+  transform: scale(1.1);
+}
+.modal__inst {
+  background-image: url("../images/instagram.svg");
+  background-size: 18px 18px;
+}
+.modal__inst:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=main.css.map */

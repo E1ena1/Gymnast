@@ -60,7 +60,7 @@
                             <a class="header-social__link header-social__inst" href="#"></a></li>
                     </ul>
                 </div>
-            <button class="header__menu"></button>
+            <button class="header__menu" id="modal-open" type="button"></button>
         </div>
     </div>
 </header>
@@ -388,10 +388,48 @@
                 </ul>
             <div class="studio">
                 <h3 class="studio-title">Разработчик</h3>
-                <img src="images/web-studio-logo.svg" alt="img">
+                <img class="studio-img" src="images/web-studio-logo.svg" alt="img">
             </div>
         </div>
     </div>
 </footer>
+<div class="modal" id="modal">
+    <div class="modal__container">
+        <div class="modal__items">
+            <button class="modal__close" id="close" type="button"></button>
+            <ul class="modal__list">
+                <li class="modal__item">
+                    <a class="modal__link" href="#">Наши преимущества</a>
+                </li>
+                <li class="modal__item">
+                    <a class="modal__link" href="#">Цены</a>
+                </li>
+                <li class="modal__item">
+                    <a class="modal__link" href="#">Группы обучения</a>
+                </li>
+                <li class="modal__item">
+                    <a class="modal__link" href="#">Контакты</a>
+                </li>
+                <li class="modal__item">
+                    <a class="modal__link" href="#">Акции</a>
+                </li>
+                <li class="modal__item">
+                    <a class="modal__link" href="#">8 923 777-77-77</a>
+                </li>
+            </ul>
+            <ul class="modal__socials">
+                <li class="modal__social-list">
+                    <a class="modal__social-item modal__fb" href="#"></a>
+                </li>
+                <li class="modal__social-list">
+                    <a class="modal__social-item modal__vk" href="#"></a>
+                </li>
+                <li class="modal__social-list">
+                    <a class="modal__social-item modal__inst" href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>
