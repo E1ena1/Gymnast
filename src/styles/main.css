@@ -684,10 +684,7 @@ body {
     width: 270px;
   }
 }
-.timetable-header {
-  background: linear-gradient(90deg, #BBBBF0 0%, #D8A0FA 71.12%);
-}
-.timetable-header th {
+.timetable-header td {
   width: 167px;
   vertical-align: middle;
   text-align: center;
@@ -697,19 +694,24 @@ body {
   font-weight: 700;
 }
 @media (max-width: 600px) {
-  .timetable-header th {
+  .timetable-header td {
     font-size: 1.5rem;
   }
 }
 @media (max-width: 360px) {
-  .timetable-header th {
+  .timetable-header td {
     font-size: 1.2rem;
   }
 }
-.timetable-header th:nth-child(1) {
+.timetable-header td:nth-child(1) {
   border-radius: 20px 0 0 0;
+  background: linear-gradient(90deg, #BBBBF0 0%, #D8A0FA 71.12%);
 }
-.timetable-header th:nth-child(3) {
+.timetable-header td:nth-child(2) {
+  background: linear-gradient(90deg, #BBBBF0 0%, #D8A0FA 71.12%);
+}
+.timetable-header td:nth-child(3) {
+  background: linear-gradient(90deg, #BBBBF0 0%, #D8A0FA 71.12%);
   border-radius: 0 20px 0 0;
 }
 .timetable-time {
@@ -1449,7 +1451,6 @@ footer {
   font-size: 2.4rem;
   line-height: 36px;
   text-align: center;
-  color: #9B4EED;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   top: -9000px;
@@ -1522,6 +1523,7 @@ footer {
 }
 .modal__link {
   text-decoration: none;
+  color: #9B4EED;
 }
 .modal__socials {
   display: flex;
