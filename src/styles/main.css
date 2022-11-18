@@ -6,7 +6,10 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   color: #000;
-  overflow-x: hidden;
+}
+
+main {
+  overflow: hidden;
 }
 
 .container {
@@ -1458,6 +1461,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 500;
+  overflow: scroll;
 }
 .modal__container {
   max-width: 900px;

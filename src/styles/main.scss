@@ -30,7 +30,9 @@ html {
 body {
   font-family: 'Manrope', sans-serif;
   color: $f-black;
-  overflow-x: hidden;
+}
+main {
+  overflow: hidden;
 }
 .container {
   max-width: 1200px;
@@ -1214,6 +1216,7 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 500;
+  overflow: scroll;
   &__container {
     max-width: 900px;
     background-color: $f-white;
