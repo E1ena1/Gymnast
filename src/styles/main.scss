@@ -1215,12 +1215,15 @@ footer {
   height: 100%;
   z-index: 500;
   &__container {
-    width: 100%;
+    max-width: 900px;
     background-color: $f-white;
     padding-top: 78px;
+    @media (max-width: $r_tab) {
+      width: 100%;
+    }
   }
   &__items {
-    width: 360px;
+    max-width: 360px;
     margin: 0 auto;
     position: relative;
     @media (max-width: $r_mob_400) {

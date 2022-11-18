@@ -1460,12 +1460,17 @@ footer {
   z-index: 500;
 }
 .modal__container {
-  width: 100%;
+  max-width: 900px;
   background-color: #fff;
   padding-top: 78px;
 }
+@media (max-width: 768px) {
+  .modal__container {
+    width: 100%;
+  }
+}
 .modal__items {
-  width: 360px;
+  max-width: 360px;
   margin: 0 auto;
   position: relative;
 }
